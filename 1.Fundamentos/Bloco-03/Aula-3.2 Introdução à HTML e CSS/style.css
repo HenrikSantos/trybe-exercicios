@@ -1,0 +1,19 @@
+body{
+    font-size: 16px;
+}
+h1{
+    font-size: 65px; 
+    color: orange;
+    font-family: sans-serif;
+}
+p{
+    font-weight: 600;
+    font-size: 300%;
+    text-align: center;
+}
+ul{
+    background-color: rgba(106, 201, 201, 0.637);
+}
+.classe001{
+    background-color: rgb(178, 214, 177);
+}
