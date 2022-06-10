@@ -1,0 +1,32 @@
+/* Posicionamento de Elementos */
+.super-mario {
+  width: 200px;
+  position: relative;
+  left: 150px;
+}
+
+.goomba {
+  width: 100px;
+  position: relative;
+  top: 124px;
+}
+
+.baloon {
+  position: relative;
+  top: 100px;
+  z-index: 0;
+}
+
+.speach {
+  font-size: 25px;
+  position: relative;
+  top: 220px;
+  left: 20px;
+  z-index: 1;
+}
+
+.bowser {
+  width: 200px;
+  position: relative;
+  top: 500px
+}

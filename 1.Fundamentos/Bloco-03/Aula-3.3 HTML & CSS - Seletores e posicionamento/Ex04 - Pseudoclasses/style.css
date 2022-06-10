@@ -1,0 +1,49 @@
+/* Pseudoclasses - Exercício Paleta de cores */
+div:hover {
+    border: solid 3px black;
+}
+
+div:nth-of-type(1) {
+    background-color: rgb(122, 53, 64);
+}
+
+div:nth-of-type(2) {
+    background-color: rgb(30, 189, 189);
+}
+
+div:nth-of-type(3) {
+    background-color: rgb(49, 47, 146);
+}
+
+div:nth-of-type(4) {
+    background-color: rgb(39, 80, 46);
+}
+
+div:nth-of-type(5) {
+    background-color: rgb(97, 34, 86);
+}
+
+
+div:nth-of-type(1)>h3 {
+    background-color: rgba(138, 125, 127, 0.459);
+    font-style: italic;
+}
+
+div:nth-of-type(2)>h3 {
+    background-color: rgb(127, 165, 165);
+}
+
+div:nth-of-type(3)>h3 {
+    background-color: rgb(80, 79, 158);
+    font-style: italic;
+    height: 100px;
+}
+
+div:nth-of-type(4)>h3 {
+    background-color: rgb(80, 107, 85);
+}
+
+div:nth-of-type(5)>h3 {
+    background-color: rgb(94, 64, 89);
+    font-style: italic;
+}
