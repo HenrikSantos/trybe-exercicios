@@ -1,0 +1,13 @@
+/* Agrupamento de Seletores */
+h1, p{
+      text-align: center;
+  }
+ol:hover{
+    background-color: beige;
+  }
+li:active{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+ul, ol{
+    list-style: none
+} 
