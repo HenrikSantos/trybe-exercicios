@@ -1,0 +1,123 @@
+:root{
+    /* font-family */
+    --tittle: font-family: 'Poppins', sans-serif;
+    --paraghraph: font-family: 'Poppins', sans-serif;
+    /* font-size */
+    --larger:40px;
+    --large:25px;
+    --medium:20px;
+    --small:16px;
+    
+    /* color */
+    --main-Color:#242423;
+    --secundary-Color:#E8EDDF;
+    --emphasis-Color:#F5CB5C;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--main-Color);
+}
+.geral{
+    width: 80rem;
+    margin: auto;
+    padding: 10px;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: #242423;
+    z-index: 1;
+}
+header h1{
+    display: inline-block;
+
+}
+nav{
+    display: inline-block;
+    
+}
+nav a{
+    text-align: center;
+    margin:20px;
+    position: relative;
+    bottom: 8px;
+}
+
+/* titulos e paragrafos */
+h1{
+    font-size: var(--larger);
+    font-weight: 500;
+    font-family: var(--tittle);
+    text-transform: uppercase;    
+    color: var(--emphasis-Color);
+}
+h2{
+    font-size: var(--large);
+    font-weight: 400;
+    font-family: var(--tittle);    
+    color: var(--emphasis-Color);  
+}
+h3{
+    font-size: var(--medium);
+    font-weight: 300;
+    font-family: var(--tittle);
+    color: var(--emphasis-Color);
+}
+
+p, li, a{
+    font-size: var(--small);
+    font-weight: 100;
+    font-family: var(--paraghraph);
+    color: var(--secundary-Color);
+}
+li{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.italico{
+    font-style: italic;
+}
+.negrito{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+iframe{
+    height: 20%;
+    width: auto;
+    border: solid 2px var(--emphasis-Color);
+}
+
+
+/* outros */
+article{
+   width: 60rem;
+   display: inline-block;
+}
+section{
+    margin: 30px;
+    display: flex;
+}
+.main__section{
+    display: block;
+}
+.section__item{
+    width: 70%;
+    display: inline-block;   
+}
+.imagem{
+    display: inline-block;
+    width: 20%;
+    border: solid 2px var(--emphasis-Color);
+}
+aside{
+    display: inline-block;
+    position: relative;
+    bottom: 450px;
+}
+footer p{
+    text-align: center;
+}
