@@ -121,3 +121,6 @@ aside{
 footer p{
     text-align: center;
 }
+.contato{
+    display: flex;
+}
