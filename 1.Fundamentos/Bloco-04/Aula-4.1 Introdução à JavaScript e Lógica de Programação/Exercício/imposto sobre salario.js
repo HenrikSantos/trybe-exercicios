@@ -24,42 +24,23 @@
 
 let salario = 3000;
 
-function imposto(salario) {
-  let _salario = salario;
-
-  if (_salario <= 1903.98) {
-    return _salario;
-  } else if (_salario <= 2826.65) {
-    _salario = salario - (_salario * 0.075 - 142.8);
-    return _salario;
-  } else if (_salario <= 3751.05) {
-    _salario = salario - (_salario * 0.15 - 354.8);
-    return _salario;
-  } else if (_salario <= 4664.68) {
-    _salario = salario - (_salario * 0.225 - 636.13);
-    return _salario;
-  } else if (_salario > 4664.68) {
-    _salario = salario - (_salario - 570.275 - 869.36);
-    return _salario;
-  }
+if (salario <= 1556.94) {
+    salario = salario * (1 - 0.08);
+} else if (salario <= 2594.92) {
+    salario = salario * (1 - 0.09);
+} else if (salario <= 5189.82) {
+    salario = salario * (1 - 0.11);
+} else if (salario > 5189.82) {
+    salario = salario - 570.88;
 }
 
-function inss(salario) {
-  _salario = salario;
-  if (_salario <= 1556.94) {
-    _salario = _salario * (1 - 0.08);
-    _salario = imposto(_salario);
-  } else if (_salario <= 2594.92) {
-    _salario = _salario * (1 - 0.09);
-    _salario = imposto(_salario);
-  } else if (_salario <= 5189.82) {
-    _salario = _salario * (1 - 0.11);
-    _salario = imposto(_salario);
-  } else if (_salario > 5189.82) {
-    _salario = _salario - 570.88;
-    _salario = imposto(_salario);
-  }
-  return _salario;
+if (salario <= 2826.65) {
+    salario = salario - (salario * 0.075 - 142.8);
+} else if (salario <= 3751.05) {
+    salario = salario - (salario * 0.15 - 354.8);
+} else if (salario <= 4664.68) {
+    salario = salario - (salario * 0.225 - 636.13);
+} else if (salario > 4664.68) {
+    salario = salario - (salario - 570.275 - 869.36);
 }
-
-console.log(`salarioFinal liquído é:`, inss(salario));
+console.log(`salarioFinal liquído é: ${salario}`);
