@@ -22,25 +22,64 @@
 // O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 (salário-base - valor IR) = R$ 2.612,55.
 // Resultado: R$ 2.612,55.
 
+//sem função
 let salario = 3000;
 
 if (salario <= 1556.94) {
-    salario = salario * (1 - 0.08);
+  salario = salario * (1 - 0.08);
 } else if (salario <= 2594.92) {
-    salario = salario * (1 - 0.09);
+  salario = salario * (1 - 0.09);
 } else if (salario <= 5189.82) {
-    salario = salario * (1 - 0.11);
+  salario = salario * (1 - 0.11);
 } else if (salario > 5189.82) {
-    salario = salario - 570.88;
+  salario = salario - 570.88;
 }
 
 if (salario > 1903.98 && salario <= 2826.65) {
-    salario = salario - (salario * 0.075 - 142.8);
+  salario = salario - (salario * 0.075 - 142.8);
 } else if (salario <= 3751.05) {
-    salario = salario - (salario * 0.15 - 354.8);
+  salario = salario - (salario * 0.15 - 354.8);
 } else if (salario <= 4664.68) {
-    salario = salario - (salario * 0.225 - 636.13);
+  salario = salario - (salario * 0.225 - 636.13);
 } else if (salario > 4664.68) {
-    salario = salario - (salario - 570.275 - 869.36);
+  salario = salario - (salario - 570.275 - 869.36);
 }
-console.log(`salarioFinal liquído é: ${salario}`);
+console.log(`salario final liquído é: ${salario}`);
+
+//com função
+{
+  function inss(_salario) {
+    let salario = _salario;
+    if (salario <= 1556.94) {
+      salario = salario * (1 - 0.08);
+    } else if (salario <= 2594.92) {
+      salario = salario * (1 - 0.09);
+    } else if (salario <= 5189.82) {
+      salario = salario * (1 - 0.11);
+    } else if (salario > 5189.82) {
+      salario = salario - 570.88;
+    }
+    return salario;
+  }
+  function impostoDeRenda(_salario) {
+    let salario = _salario;
+    if (salario > 1903.98 && salario <= 2826.65) {
+      salario = salario - (salario * 0.075 - 142.8);
+    } else if (salario <= 3751.05) {
+      salario = salario - (salario * 0.15 - 354.8);
+    } else if (salario <= 4664.68) {
+      salario = salario - (salario * 0.225 - 636.13);
+    } else if (salario > 4664.68) {
+      salario = salario - (salario * 0.275 - 869.36);
+    }
+    return salario;
+  }
+  function calcularImpostos(_salario) {
+    let salario = _salario;
+    salario = inss(salario);
+    salario = impostoDeRenda(salario);
+    return salario;
+  }
+  let salario = calcularImpostos(3000);
+  console.log(`salario final liquído é: ${salario}`);
+}
