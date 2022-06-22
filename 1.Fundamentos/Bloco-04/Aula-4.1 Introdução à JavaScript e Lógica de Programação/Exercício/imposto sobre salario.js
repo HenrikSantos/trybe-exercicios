@@ -34,7 +34,7 @@ if (salario <= 1556.94) {
     salario = salario - 570.88;
 }
 
-if (salario <= 2826.65) {
+if (salario > 1903.98 && salario <= 2826.65) {
     salario = salario - (salario * 0.075 - 142.8);
 } else if (salario <= 3751.05) {
     salario = salario - (salario * 0.15 - 354.8);
