@@ -23,7 +23,7 @@
 // Resultado: R$ 2.612,55.
 
 //sem função
-let salario = 3000;
+let salario = 1800;
 
 if (salario <= 1556.94) {
   salario = salario * (1 - 0.08);
@@ -35,7 +35,8 @@ if (salario <= 1556.94) {
   salario = salario - 570.88;
 }
 
-if (salario > 1903.98 && salario <= 2826.65) {
+if (salario <= 1903.98) {
+} else if (salario > 1903.98 && salario <= 2826.65) {
   salario = salario - (salario * 0.075 - 142.8);
 } else if (salario <= 3751.05) {
   salario = salario - (salario * 0.15 - 354.8);
@@ -50,36 +51,47 @@ console.log(`salario final liquído é: ${salario}`);
 {
   function inss(_salario) {
     let salario = _salario;
-    if (salario <= 1556.94) {
-      salario = salario * (1 - 0.08);
-    } else if (salario <= 2594.92) {
-      salario = salario * (1 - 0.09);
-    } else if (salario <= 5189.82) {
-      salario = salario * (1 - 0.11);
-    } else if (salario > 5189.82) {
-      salario = salario - 570.88;
+    let taxaInss = [0.92, 0.91, 0.89, 570.88];
+    let valorDaTaxa = [1556.94, 2594.92, 5189.82];
+
+    if (salario > valorDaTaxa[valorDaTaxa.length - 1]) {
+      salario = salario - taxaInss[taxaInss.length - 1];
+      return salario;
     }
-    return salario;
+
+    for (let index = 0; index < taxaInss.length; index++) {
+      if (salario <= valorDaTaxa[index]) {
+        return salario * taxaInss[index];
+      }
+    }
   }
+
   function impostoDeRenda(_salario) {
     let salario = _salario;
-    if (salario > 1903.98 && salario <= 2826.65) {
-      salario = salario - (salario * 0.075 - 142.8);
-    } else if (salario <= 3751.05) {
-      salario = salario - (salario * 0.15 - 354.8);
-    } else if (salario <= 4664.68) {
-      salario = salario - (salario * 0.225 - 636.13);
-    } else if (salario > 4664.68) {
-      salario = salario - (salario * 0.275 - 869.36);
+    let taxaImpostoDeRenda = [0.075, 0.15, 0.225];
+    let parcela = [142.8, 354.8, 636.13, 869.36];
+    let tetoDaTaxaImposto = [2826.65, 3751.05, 4664.68];
+
+    if (salario <= 1903.98) {
+      return salario;
     }
-    return salario;
+    if (salario > 4664.68) {
+      return salario - (salario * 0.275 - 869.36);
+    }
+    for (let index = 0; index < 3; index++) {
+      if (salario <= tetoDaTaxaImposto[index]) {
+        return salario - (salario * taxaImpostoDeRenda[index] - parcela[index]);
+      }
+    }
   }
   function calcularImpostos(_salario) {
     let salario = _salario;
+    if (salario < 0) {
+      return "Salario não pode ser negativo!";
+    }
     salario = inss(salario);
     salario = impostoDeRenda(salario);
     return salario;
   }
-  let salario = calcularImpostos(3000);
-  console.log(`salario final liquído é: ${salario}`);
+  console.log(calcularImpostos(1800));
 }
