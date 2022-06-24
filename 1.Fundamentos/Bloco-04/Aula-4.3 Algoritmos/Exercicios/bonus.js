@@ -9,11 +9,10 @@ for (let index = 0; index < n; index += 1) {
   horizontal = "";
 }
 // 2- Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base.
-// let n2 = 5;
-// let horizontal2 = "";
+let n2 = 5;
+let horizontal2 = "";
 
-// for (let index = 0; index < n2; index += 1) {
-//   horizontal2 += "*";
-//   console.log(horizontal2);
-// }
-
+for (let index = 0; index < n2; index += 1) {
+  horizontal2 += "*";
+  console.log(horizontal2);
+}
