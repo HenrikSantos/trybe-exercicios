@@ -125,45 +125,45 @@ function numeroDeRepeticoes(array) {
   let repetiuQuantasVezes2 = 0;
   let numeroQueMaisRepete = 0;
   for (index of array) {
-    for(index2 of array){
-      if(index2 == index){
+    for (index2 of array) {
+      if (index2 == index) {
         repetiuQuantasVezes2 += 1;
       }
     }
-    if(repetiuQuantasVezes2 > numeroDeRepeticoesDoMaior){
+    if (repetiuQuantasVezes2 > numeroDeRepeticoesDoMaior) {
       numeroQueMaisRepete = index;
       numeroDeRepeticoesDoMaior = repetiuQuantasVezes2;
     }
-    repetiuQuantasVezes2 = 0
+    repetiuQuantasVezes2 = 0;
   }
-  return numeroQueMaisRepete
+  return numeroQueMaisRepete;
 }
-console.log(numeroDeRepeticoes(array4))
+console.log(numeroDeRepeticoes(array4));
 
 // 6- Crie uma função que receba um número natural (número inteiro não negativo) N e retorne o somatório de todos os números de 1 até N.
-function somatorioAteONumero(numeroASerSomado){
-  let soma=0;
-  if(numeroASerSomado < 0 || !Number.isInteger(numeroASerSomado)){
-    return "somente numeros naturais"
+function somatorioAteONumero(numeroASerSomado) {
+  let soma = 0;
+  if (numeroASerSomado < 0 || !Number.isInteger(numeroASerSomado)) {
+    return "somente numeros naturais";
   }
-  for(index = 0; index <= numeroASerSomado; index+=1){
-    console.log(index)
+  for (index = 0; index <= numeroASerSomado; index += 1) {
+    console.log(index);
     soma += index;
   }
-  return soma
+  return soma;
 }
-console.log(somatorioAteONumero(5))
+console.log(somatorioAteONumero(5));
 // 7 - Crie uma função que receba uma string word e outra string ending. Verifique se a string ending é o final da string word. Considere que a string ending sempre será menor que a string word.
-function verificaFinalIgualComeco(word, ending){
+function verificaFinalIgualComeco(word, ending) {
   let result = false;
-  for(index = 0; index < ending.length; index++){
-    if(word[word.length-index-1] == ending[ending.length-index-1]){
+  for (index = 0; index < ending.length; index++) {
+    if (word[word.length - index - 1] == ending[ending.length - index - 1]) {
       result = true;
-    }else{
-      result = false
-      return result
+    } else {
+      result = false;
+      return result;
     }
-    return result
+    return result;
   }
 }
-console.log(verificaFinalIgualComeco('joaofernando', 'fernan'))
+console.log(verificaFinalIgualComeco("joaofernando", "fernan"));
