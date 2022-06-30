@@ -38,7 +38,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
 - [X] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
+- [X] 5-2: _JavaScript - Trabalhando com elementos_
 - [ ] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Projeto - Meme Generator]()_
