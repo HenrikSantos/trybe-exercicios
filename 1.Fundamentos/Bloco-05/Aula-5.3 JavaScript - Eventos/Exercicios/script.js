@@ -149,7 +149,6 @@ function zoomIn(event) {
 //  Implemente uma função que adicione uma tarefa personalizada ao calendário. A função deve receber como parâmetro a string com o nome da tarefa (ex: "cozinhar") e criar dinamicamente um elemento com a tag <span> contendo a tarefa.
 //    O elemento criado deverá ser adicionado como filho/filha da tag <div> que possui a classe "my-tasks".
 
-
 const myTasks = document.querySelector(".my-tasks");
 
 function createTask(newTask) {
@@ -215,20 +214,26 @@ function dayTaskSelected(event) {
 //     Se nenhum caractere for inserido no campo input, a função deve retornar um alert com uma mensagem de erro ao clicar em "ADICIONAR".
 //     Ao pressionar a tecla "enter" o evento também deverá ser disparado.
 
-const compromissos = document.querySelector('#compromissos')
-const taskInput = document.querySelector('#task-input')
-const btnAdd = document.querySelector('#btn-add')
+const compromissos = document.querySelector("#compromissos");
+const taskInput = document.querySelector("#task-input");
+const btnAdd = document.querySelector("#btn-add");
 
-btnAdd.addEventListener('click', function(){
-  if(taskInput.value !== ''){
-    createCompromisso(taskInput.value)
-  }else{
-    window.alert('need a value')
+btnAdd.addEventListener("click", function () {
+  if (taskInput.value !== "") {
+    createCompromisso(taskInput.value);
+  } else {
+    window.alert("need a value");
   }
-})
+});
 
-function createCompromisso(txtCompromisso){
-const newCompromisso = document.createElement('p')
-newCompromisso.innerText = txtCompromisso;
-compromissos.appendChild(newCompromisso)
+taskInput.addEventListener("keyup", function (event) {
+  if (event.key === "Enter" && taskInput.value.length > 0) {
+    createCompromisso(taskInput.value);
+  }
+});
+
+function createCompromisso(txtCompromisso) {
+  const newCompromisso = document.createElement("p");
+  newCompromisso.innerText = txtCompromisso;
+  compromissos.appendChild(newCompromisso);
 }
