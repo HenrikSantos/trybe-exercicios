@@ -226,14 +226,9 @@ btnAdd.addEventListener("click", function () {
   }
 });
 
-taskInput.addEventListener("keydown", function (event) {
-  const x = event.key;
-  if (taskInput.value !== "") {
-    if (x === "Enter") {
-      createCompromisso(taskInput.value);
-    }
-  } else {
-    window.alert("need a value");
+taskInput.addEventListener("keyup", function (event) {
+  if (event.key === "Enter" && taskInput.value.length > 0) {
+    createCompromisso(taskInput.value);
   }
 });
 
