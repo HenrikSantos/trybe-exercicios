@@ -1,0 +1,35 @@
+* {
+  margin: auto;
+  padding: 3px;
+}
+div {
+  padding-top: 100px;
+  width: 80%;
+}
+h1 {
+  margin-bottom: 10px;
+}
+
+label {
+  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0),
+    0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+  color: white;
+  margin: 3px;
+  font-family: "Courier New", Courier, monospace;
+}
+input {
+  float: right;
+}
+form {
+  width: 30%;
+  margin: 0;
+}
+button {
+  display: block;
+  float: right;
+}
+#colorPickerCheckbox {
+  float: none;
+  transform: scale(1.3);
+}
