@@ -21,9 +21,9 @@ label {
 input {
   float: right;
 }
-form {
+#form {
   width: 30%;
-  margin: 0;
+  margin-left: 230px;
 }
 button {
   display: block;
