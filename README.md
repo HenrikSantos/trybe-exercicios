@@ -25,7 +25,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-024-a-project-lessons-learned/pull/47)_
+- [X] 3-5: _[Projeto - HTML & CSS - lessons-learned](https://github.com/HenrikSantos/lessons-learned)_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -33,7 +33,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 4-2: _JavaScript - Array e loop For_
 - [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [X] 4-4: _JavaScript - Objetos e funções_
-- [X] 4-5: _[Projeto - Playground Functions]()_
+- [X] 4-5: _[Projeto - Playground Functions](https://github.com/HenrikSantos/playground-functions)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
@@ -42,7 +42,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Projeto - Meme Generator]()_
-- [ ] 5-6: _[Projeto - Arte com Pixels]()_
+- [X] 5-6: _[Projeto - Arte com Pixels](https://github.com/HenrikSantos/pixels-art)_
 - [ ] 5-7: _[Projeto - Lista de tarefas]()_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
