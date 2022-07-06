@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulário</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <form action="" method="post">
+        <fieldset>
+          <label for="nome">Nome: </label>
+          <input type="text" name="nome" id="nome" minlength="10" maxlength="40"/>
+          <br />
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" minlength="10" maxlength="50"/>
+          <br />
+          <input type="radio" name="opcao" id="cidade" />
+          <span>Cidade</span>
+          <input type="radio" name="opcao" id="campo" />
+          <span>Campo</span>
+          <input type="radio" name="opcao" id="praia" />
+          <span>Praia</span>
+          <input type="radio" name="opcao" id="montanhas" />
+          <span>Montanhas</span>
+          <br />
+          <label for="resposta">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+          <br />
+          <textarea
+            name="resposta"
+            id="resposta"
+            cols="64"
+            rows="10"
+            maxlength="500"
+          ></textarea>
+          <br />
+          <label for="date">Qual a melhor data para realizar sua viagem?</label>
+          <input type="date" name="date" id="date" />
+          <br />
+          <label for="acceptNewOpportunities">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? </label>
+          <input type="checkbox" name="acceptNewOpportunities" id="acceptNewOpportunities" />
+          <br />
+          <label for="shareImage">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros. </label>
+          <input type="checkbox" name="shareImage" id="shareImage" />
+        </fieldset>
+        <div class="botoes">
+          <button type="submit" value="" id="enviar">Enviar</button>
+          <button id="apagar">Apagar</button>
+        </div>
+      </form>
+      <script src="script.js"></script>
+    </header>
+  </body>
+</html>
