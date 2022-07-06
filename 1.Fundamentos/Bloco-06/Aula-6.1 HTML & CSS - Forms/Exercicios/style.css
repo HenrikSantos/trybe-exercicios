@@ -1,0 +1,44 @@
+*{
+  margin: 10px;
+  color: rgb(85, 80, 80);
+}
+
+header{
+  margin: auto;
+}
+
+form{
+  margin: auto;
+}
+
+fieldset{
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+  border: solid 3px black;
+}
+
+textarea{
+  width: auto;
+}
+
+input[type="text"], input[type="email"]{
+  width: 81%;
+}
+
+.botoes{
+  margin: auto;
+  width: 60%;
+}
+button{
+  color: rgb(118, 119, 121);
+  padding: 5px 40px;
+  background-color: white;
+  border: solid 1px rgb(92, 91, 91);
+  border-radius: 6px;
+}
+button:hover{
+  background-color: rgb(214, 214, 214);
+  color: white;
+  cursor: pointer;
+}
