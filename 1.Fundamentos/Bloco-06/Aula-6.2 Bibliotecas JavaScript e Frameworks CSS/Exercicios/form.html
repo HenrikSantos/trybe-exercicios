@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulário</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header class="container my-5 bg-light border rounded-2 border-light p-4">
+      <form method="post">
+        <label class="form-label" for="nome">Nome: </label>
+        <input
+          class="form-control"
+          type="text"
+          name="nome"
+          id="nome"
+          minlength="10"
+          maxlength="40"
+        />
+
+        <label class="form-label" for="email">Email: </label>
+        <input
+          class="form-control"
+          type="email"
+          name="email"
+          id="email"
+          minlength="10"
+          maxlength="50"
+        />
+
+        <div class="form-check my-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="opcao"
+            id="cidade"
+          />
+          <label class="form-check-label" for="cidade">Cidade</label>
+        </div>
+        <div class="form-check my-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="opcao"
+            id="campo"
+          />
+          <label class="form-check-label" for="campo">Campo</label>
+        </div>
+        <div class="form-check my-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="opcao"
+            id="praia"
+          />
+          <label class="form-check-label" for="praia">Praia</label>
+        </div>
+        <div class="form-check my-2">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="opcao"
+            id="montanhas"
+          />
+          <label class="form-check-label" for="montanhas">Montanhas</label>
+        </div>
+
+        <div class="form-floating">
+          <textarea
+            class="form-control"
+            name="resposta"
+            id="resposta"
+            cols="64"
+            rows="10"
+            maxlength="500"
+          ></textarea>
+          <label class="form-label" for="resposta">
+            Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+            TrybeTrip?
+          </label>
+        </div>
+
+        <div class="form-date">
+          <label class="form-label" for="date">
+            Qual a melhor data para realizar sua viagem?
+          </label>
+          <input class="form-control" type="date" name="date" id="date" />
+        </div>
+
+        <div class="form-check mt-2">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="acceptNewOpportunities"
+            id="acceptNewOpportunities"
+          />
+          <label class="form-check-label" for="acceptNewOpportunities"
+            >Gostaria de receber outras incríveis oportunidades oferecidas pela
+            Trybe?
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="shareImage"
+            id="shareImage"
+          />
+          <label class="form-check-label" for="shareImage"
+            >Concordo que imagens das minhas férias poderão ser usadas na
+            divulgação de concursos futuros.
+          </label>
+        </div>
+
+        <div class="form-check mt-2">
+          <button class="btn btn-primary" type="submit" value="" id="enviar">
+            Enviar
+          </button>
+          <button class="btn btn-outline-warning ms-2" id="apagar">
+            Apagar
+          </button>
+        </div>
+      </form>
+      <script src="script.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"
+      ></script>
+    </header>
+  </body>
+</html>
