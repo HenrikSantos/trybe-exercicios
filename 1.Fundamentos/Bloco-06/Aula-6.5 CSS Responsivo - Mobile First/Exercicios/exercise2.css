@@ -2,6 +2,73 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.6rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.3em;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  width: 15em;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  margin: 10px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+nav ul li:hover {
+  opacity: 1;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+aside {
+  margin: 10px 0px;
+}
+aside ul {
+  margin-left: 25px;
+  font-size: 0.9rem;
+}
+aside h2 {
+  font-size: 1.2rem;
+}
+
+article p {
+  text-align: justify;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+@media (min-width: 700px) {
+  .aside-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) {
+  .aside-ul-item {
+    font-size: 1.2rem;
+  }
 }
