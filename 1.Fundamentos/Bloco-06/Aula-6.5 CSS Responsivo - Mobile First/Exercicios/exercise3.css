@@ -102,7 +102,7 @@ body {
   body {
     padding: 0;
   }
-  nav ul{
+  nav ul {
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -110,7 +110,7 @@ body {
     justify-content: center;
     flex-basis: 100%;
   }
-  body{
+  body {
     width: 100%;
   }
 }
