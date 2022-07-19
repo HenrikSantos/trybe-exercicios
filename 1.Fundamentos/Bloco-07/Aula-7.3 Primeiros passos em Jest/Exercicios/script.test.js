@@ -58,7 +58,7 @@ describe("04 - Verificar a função searchEmployee", () => {
       searchEmployee("9999");
     }).toThrowError("Funcionário não encontrado no board");
   });
-  test('verifica se ao passar um id válido é retornado "correto"', () => {
+  test('verifica se ao passar um id válido é retornado as informações do funcionário', () => {
     expect(searchEmployee("4678-2")).toBe(`id: 4678-2
 nome: Paul Dodds
 especialidades: Backend`);
