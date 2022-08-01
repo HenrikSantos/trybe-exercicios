@@ -41,10 +41,10 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 5-2: _JavaScript - Trabalhando com elementos_
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Meme Generator]()_
+- [X] 5-5: _[Projeto - Meme Generator]()_
 - [X] 5-6: _[Projeto - Arte com Pixels](https://github.com/HenrikSantos/pixels-art)_
 - [X] 5-7: _[Projeto - Lista de tarefas](https://github.com/HenrikSantos/todo-list)_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
+- [X] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS avançado
@@ -70,7 +70,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [X] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [X] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-6: _[Projeto - Zoo functions]()_
+- [X] 8-6: _[Projeto - Zoo functions]()_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
