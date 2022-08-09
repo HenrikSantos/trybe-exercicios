@@ -75,8 +75,9 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 ##### Bloco 9: Assincronicidade & Callbacks
 
 - [X] 9-1: _JavaScript Assíncrono e Callbacks_
-- [X] 9-2: _JavaScript Promises e Async/Await_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [X] 9-2: _JavaScript Promises_
+- [X] 9-3: _JavaScript Testes Assíncronos com Async/Await_(https://github.com/HenrikSantos/content-async-test)_
+- [ ] 9-4: _[Projeto - Carrinho de Compras]()_
 
 ##### Bloco 10: Jest
 
