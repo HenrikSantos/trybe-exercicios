@@ -109,7 +109,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 
 ##### Bloco 14: Metodologias Ágeis
 
-- [ ] 14-1: _Metodologias Ágeis_
+- [x] 14-1: _Metodologias Ágeis_
 - [ ] 14-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 15: Testes em React
