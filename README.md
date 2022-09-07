@@ -6,7 +6,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
  O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
  O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecnologia do Brasil e do mundo e ao longo da formação, estudamos Javascript, Node, Git, HTML, Express.js, Python, CSS, SQL, ORM, React, NoSQL, Algoritmos e estrutura de dados.
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :white_check_mark::
 
 ##### Bloco 1: Introdução - Unix & Shell :white_check_mark::
 
