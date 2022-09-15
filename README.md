@@ -107,8 +107,8 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 
 ##### Bloco 14: Testes em React 
 
-- [ ] 14-1: _React Testing Library - Primeiros passos_
-- [ ] 14-2: React Testing Library - Mocks e Inputs_
+- [x] 14-1: _React Testing Library - Primeiros passos_
+- [x] 14-2: React Testing Library - Mocks e Inputs_
 - [ ] 14-3: React Testing Library - Testando React Router_
 - [ ] 14-4: _[Projeto - Testes em React]()_
 
