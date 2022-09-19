@@ -103,14 +103,14 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 ##### Bloco 13: React :white_check_mark::
 
 - [X] 13-1: _Metodologias Ágeis_
-- [ ] 13-2: _Projeto - Frontend Online Store_
+- [x] 13-2: _[Projeto - Frontend Online Store](https://github.com/HenrikSantos/FrontEnd-Online-Store)_
 
-##### Bloco 14: Testes em React 
+##### Bloco 14: Testes em React :white_check_mark::
 
 - [x] 14-1: _React Testing Library - Primeiros passos_
 - [x] 14-2: React Testing Library - Mocks e Inputs_
-- [ ] 14-3: React Testing Library - Testando React Router_
-- [ ] 14-4: _[Projeto - Testes em React]()_
+- [x] 14-3: React Testing Library - Testando React Router_
+- [x] 14-4: _[Projeto - Testes em React]()_
 
 ##### Bloco 15: Introdução ao Redux
 
