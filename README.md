@@ -98,7 +98,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 
 - [X] 12-1: _Ciclo de Vida de componentes_
 - [X] 12-2: _React Router_
-- [X] 12-3: _[Projeto - TrybeTunes]()_
+- [X] 12-3: _[Projeto - TrybeTunes](https://github.com/HenrikSantos/TrybeTunes)_
 
 ##### Bloco 13: React :white_check_mark::
 
