@@ -114,10 +114,10 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 
 ##### Bloco 15: Introdução ao Redux
 
-- [ ] 15-1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 15-2: _React com Redux - Parte 1_
-- [ ] 15-3: _React com Redux - Prática_
-- [ ] 15-4: _React com Redux - Actions Assíncronas_
+- [x] 15-1: _Introdução ao Redux - O estado global da aplicação_
+- [x] 15-2: _React com Redux - Parte 1_
+- [x] 15-3: _React com Redux - Prática_
+- [x] 15-4: _React com Redux - Actions Assíncronas_
 - [ ] 15-5: _Testes em React-Redux_
 - [ ] 15-6: _[Projeto - Trybe Wallet]()_
 
