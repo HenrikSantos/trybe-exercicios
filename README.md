@@ -118,7 +118,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [x] 15-2: _React com Redux - Parte 1_
 - [x] 15-3: _React com Redux - Prática_
 - [x] 15-4: _React com Redux - Actions Assíncronas_
-- [ ] 15-5: _Testes em React-Redux_
+- [X] 15-5: _Testes em React-Redux_
 - [ ] 15-6: _[Projeto - Trybe Wallet]()_
 
 ##### Bloco 16: Projeto React
