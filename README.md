@@ -123,11 +123,11 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 
 ##### Bloco 16: Projeto React
 
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+- [X] 16-1: _[Projeto - Jogo de Trivia]()_
 
 ##### Bloco 17: React & Context API
 
-- [ ] 17-1: _Context API do React_
+- [X] 17-1: _Context API do React_
 - [ ] 17-2: _React Hooks - useState e useContext_
 - [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
 - [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
