@@ -86,7 +86,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 10-3: _Componentes React_
 - [X] 10-4: _[Projeto - Sistema Solar]()_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand: 
+## Desenvolvimento Front-end :white_check_mark::
 
 ##### Bloco 11: Introdução - React :white_check_mark::
 
@@ -112,7 +112,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [x] 14-3: React Testing Library - Testando React Router_
 - [x] 14-4: _[Projeto - Testes em React]()_
 
-##### Bloco 15: Introdução ao Redux
+##### Bloco 15: Introdução ao Redux :white_check_mark::
 
 - [x] 15-1: _Introdução ao Redux - O estado global da aplicação_
 - [x] 15-2: _React com Redux - Parte 1_
@@ -125,14 +125,14 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 
 - [X] 16-1: _[Projeto - Jogo de Trivia]()_
 
-##### Bloco 17: React & Context API
+##### Bloco 17: React & Context API :white_check_mark::
 
 - [X] 17-1: _Context API do React_
 - [X] 17-2: _React Hooks - useState e useContext_
 - [X] 17-3: _React Hooks - useEffect e Hooks customizados_
 - [X] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
-##### Bloco 18: Projeto Final de Front-end
+##### Bloco 18: Projeto Final de Front-end :white_check_mark::
 
 - [X] 18-1: _[Projeto - App de Receitas]()_
 
