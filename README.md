@@ -140,10 +140,10 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 
 ##### Bloco 19: Introdução - Bancos de dados relacionais
 
-- [ ] 19-1: _Banco de dados SQL_
-- [ ] 19-2: _Encontrando dados em um banco de dados_
-- [ ] 19-3: _Filtrando dados de forma específica_
-- [ ] 19-4: _Manipulando tabelas_
+- [X] 19-1: _Banco de dados SQL_
+- [X] 19-2: _Encontrando dados em um banco de dados_
+- [X] 19-3: _Filtrando dados de forma específica_
+- [X] 19-4: _Manipulando tabelas_
 - [ ] 19-5: _[Projeto - All For One]()_
 
 ##### Bloco 20: Bancos de dados relacionais
