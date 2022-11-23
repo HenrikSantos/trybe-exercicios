@@ -138,13 +138,13 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 19: Introdução - Bancos de dados relacionais
+##### Bloco 19: Introdução - Bancos de dados relacionais :white_check_mark::
 
 - [X] 19-1: _Banco de dados SQL_
 - [X] 19-2: _Encontrando dados em um banco de dados_
 - [X] 19-3: _Filtrando dados de forma específica_
 - [X] 19-4: _Manipulando tabelas_
-- [ ] 19-5: _[Projeto - All For One]()_
+- [X] 19-5: _[Projeto - All For One]()_
 
 ##### Bloco 20: Bancos de dados relacionais
 
