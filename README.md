@@ -149,7 +149,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 ##### Bloco 20: Bancos de dados relacionais
 
 - [X] 20-1: _Funções mais usadas no SQL_
-- [ ] 20-2: _Descomplicando JOINs e UNIONs_
+- [X] 20-2: _Descomplicando JOINs e UNIONs_
 - [ ] 20-3: _Stored Routines & Subqueries_
 - [ ] 20-4: _[Projeto - Vocabulary Booster]()_
 
