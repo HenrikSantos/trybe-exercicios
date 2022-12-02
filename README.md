@@ -151,14 +151,14 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 20-1: _Funções mais usadas no SQL_
 - [X] 20-2: _Descomplicando JOINs e UNIONs_
 - [X] 20-3: _Stored Routines & Subqueries_
-- [ ] 20-4: _[Projeto - One For All]()_
+- [X] 20-4: _[Projeto -All For One]()_
 
 ##### Bloco 21: Bancos de dados relacionais
 
-- [ ] 21-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 21-2: _Normalização, Formas Normais e Dumps_
-- [ ] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 21-3: _[Projeto - One For All]()_
+- [X] 21-1: _Transformando ideias em um modelo de banco de dados_
+- [X] 21-2: _Normalização, Formas Normais e Dumps_
+- [X] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [X] 21-3: _[Projeto - One For All]()_
 
 ##### Bloco 22: Introdução - NoSQL
 
