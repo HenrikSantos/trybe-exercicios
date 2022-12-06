@@ -162,7 +162,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 
 ##### Bloco 22: Introdução - NoSQL
 
-- [ ] 22-1: _MongoDB - Introdução_
+- [X] 22-1: _MongoDB - Introdução_
 - [ ] 22-2: _Filter Operators_
 - [ ] 22-3: _[Projeto - Data Flights]()_
 
