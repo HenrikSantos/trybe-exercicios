@@ -164,7 +164,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 
 - [X] 22-1: _Node.js: Runtime Assíncrono_
 - [X] 22-2: _Node.js: Testes de Integração_
-- [ ] 22-3: _Node.js: Express e Middlewares_
+- [X] 22-3: _Node.js: Express e Middlewares_
 - [ ] 22-4: _Node.js: Express e MySQL_
 - [ ] 22-5: _[Projeto - Talk Manager]()_
 
