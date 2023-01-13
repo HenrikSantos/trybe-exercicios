@@ -160,7 +160,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [X] 21-3: _[Projeto - One For All]()_
 
-##### Bloco 22: Introdução - NoSQL
+##### Bloco 22: Introdução - Desenvolvimento Web com Node.js
 
 - [X] 22-1: _Node.js: Runtime Assíncrono_
 - [X] 22-2: _Node.js: Testes de Integração_
@@ -168,12 +168,12 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 22-4: _Node.js: Express e MySQL_
 - [X] 22-5: _[Projeto - Talk Manager](https://github.com/HenrikSantos/Talker-Manager)_
 
-##### Bloco 23: Updates
+##### Bloco 24: Introdução - Arquitetura de Software
 
-- [ ] 23-1: _Updates Simples_
-- [ ] 23-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 23-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 23-4: _[Projeto - Commerce]()_
+- [X] 23-1: _Arquitetura de Software: Camada Model_
+- [X] 23-2: _Arquitetura de Software: Camada Service_
+- [X] 23-3: _Arquitetura de Software: Camada Controller_
+- [ ] 23-4: _[Projeto - Store Manager]()_
 
 ##### Bloco 24: Aggregation Framework
 
