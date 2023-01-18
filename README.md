@@ -173,7 +173,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 23-1: _Arquitetura de Software: Camada Model_
 - [X] 23-2: _Arquitetura de Software: Camada Service_
 - [X] 23-3: _Arquitetura de Software: Camada Controller_
-- [ ] 23-4: _[Projeto - Store Manager]()_
+- [X] 23-4: _[Projeto - Store Manager]()_
 
 ##### Bloco 24: Aggregation Framework
 
