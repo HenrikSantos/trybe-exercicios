@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "senha_mysql",
+    "database": "orm_example",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "orm_example",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "orm_example",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
