@@ -168,18 +168,20 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 22-4: _Node.js: Express e MySQL_
 - [X] 22-5: _[Projeto - Talk Manager](https://github.com/HenrikSantos/Talker-Manager)_
 
-##### Bloco 24: Introdução - Arquitetura de Software
+##### Bloco 23: Introdução - Arquitetura de Software
 
 - [X] 23-1: _Arquitetura de Software: Camada Model_
 - [X] 23-2: _Arquitetura de Software: Camada Service_
 - [X] 23-3: _Arquitetura de Software: Camada Controller_
 - [X] 23-4: _[Projeto - Store Manager]()_
 
-##### Bloco 24: Aggregation Framework
+##### Bloco 24: Node.js: ORM e Autenticação
 
-- [ ] 24-1: _Aggregation Framework - Part 1_
-- [ ] 24-2: _Aggregation Framework - Part 2_
-- [ ] 24-3: _[Projeto - Aggregations]()_
+- [X] 24-1: _ORM - Interface da aplicação com o banco de dados_
+- [X] 24-2: _ORM - Associations 1:1 e 1:N_
+- [ ] 24-3: _ORM - Associations N:N e Transactions_
+- [ ] 24-4: _JWT - (JSON Web Token)_
+- [ ] 24-5: _[Projeto - API de Blogs]()_
 
 ##### Bloco 25: Intro - NodeJS
 
