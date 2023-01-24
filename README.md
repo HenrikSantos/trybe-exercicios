@@ -146,21 +146,21 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 19-4: _Manipulando tabelas_
 - [X] 19-5: _[Projeto - All For One]()_
 
-##### Bloco 20: Bancos de dados relacionais
+##### Bloco 20: Bancos de dados relacionais :white_check_mark:
 
 - [X] 20-1: _Funções mais usadas no SQL_
 - [X] 20-2: _Descomplicando JOINs e UNIONs_
 - [X] 20-3: _Stored Routines & Subqueries_
 - [X] 20-4: _[Projeto -All For One]()_
 
-##### Bloco 21: Bancos de dados relacionais
+##### Bloco 21: Bancos de dados relacionais :white_check_mark:
 
 - [X] 21-1: _Transformando ideias em um modelo de banco de dados_
 - [X] 21-2: _Normalização, Formas Normais e Dumps_
 - [X] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [X] 21-3: _[Projeto - One For All]()_
 
-##### Bloco 22: Introdução - Desenvolvimento Web com Node.js
+##### Bloco 22: Introdução - Desenvolvimento Web com Node.js :white_check_mark:
 
 - [X] 22-1: _Node.js: Runtime Assíncrono_
 - [X] 22-2: _Node.js: Testes de Integração_
@@ -168,7 +168,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 22-4: _Node.js: Express e MySQL_
 - [X] 22-5: _[Projeto - Talk Manager](https://github.com/HenrikSantos/Talker-Manager)_
 
-##### Bloco 23: Introdução - Arquitetura de Software
+##### Bloco 23: Introdução - Arquitetura de Software :white_check_mark:
 
 - [X] 23-1: _Arquitetura de Software: Camada Model_
 - [X] 23-2: _Arquitetura de Software: Camada Service_
