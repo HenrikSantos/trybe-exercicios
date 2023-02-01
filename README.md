@@ -181,7 +181,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 24-2: _ORM - Associations 1:1 e 1:N_
 - [X] 24-3: _ORM - Associations N:N e Transactions_
 - [X] 24-4: _JWT - (JSON Web Token)_
-- [ ] 24-5: _[Projeto - API de Blogs]()_
+- [X] 24-5: _[Projeto - API de Blogs]()_
 
 ##### Bloco 25: Intro - NodeJS
 
