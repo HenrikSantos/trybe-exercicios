@@ -175,7 +175,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 23-3: _Arquitetura de Software: Camada Controller_
 - [X] 23-4: _[Projeto - Store Manager]()_
 
-##### Bloco 24: Node.js: ORM e Autenticação
+##### Bloco 24: Node.js: ORM e Autenticação :white_check_mark:
 
 - [X] 24-1: _ORM - Interface da aplicação com o banco de dados_
 - [X] 24-2: _ORM - Associations 1:1 e 1:N_
@@ -183,9 +183,9 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 24-4: _JWT - (JSON Web Token)_
 - [X] 24-5: _[Projeto - API de Blogs]()_
 
-##### Bloco 25: Intro - NodeJS
+##### Bloco 25: Introdução a TypeScript
 
-- [ ] 25-1: _NodeJS - Introdução_
+- [X] 25-1: _Introdução a TypeScript
 - [ ] 25-2: _NodeJS - Fluxo Assíncrono_
 - [ ] 25-3: _NodeJS - Arquitetura_
 - [ ] 25-4: _[Projeto - A CLI of Ice and Fire]()_
