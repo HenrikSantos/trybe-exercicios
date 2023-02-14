@@ -192,9 +192,9 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 
 ##### Bloco 26: Programação Orientada a Objetos e SOLID
 
-- [ ] 26-1: _Introdução à POO_
-- [ ] 26-2: _Herança e Composição_
-- [ ] 26-3: _Polimorfismo_
+- [X] 26-1: _Introdução à POO_
+- [X] 26-2: _Herança e Composição_
+- [X] 26-3: _Polimorfismo_
 - [ ] 26-4: _SOLID - Introdução e Princípios S, O e D_
 - [ ] 26-5: _SOLID - Princípios L e I_
 - [ ] 26-6: _[Projeto - Trybers and Dragons]()_
