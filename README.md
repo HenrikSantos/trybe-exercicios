@@ -183,18 +183,21 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 24-4: _JWT - (JSON Web Token)_
 - [X] 24-5: _[Projeto - API de Blogs]()_
 
-##### Bloco 25: Introdução a TypeScript
+##### Bloco 25: Introdução a TypeScript :white_check_mark:
 
 - [X] 25-1: _Introdução a TypeScript
-- [ ] 25-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 25-3: _NodeJS - Arquitetura_
-- [ ] 25-4: _[Projeto - A CLI of Ice and Fire]()_
+- [X] 25-2: _Tipagem estática e generics_
+- [X] 25-3: _Express com TypeScript_
+- [X] 25-4: _[Projeto - Trybesmith]()_
 
-##### Bloco 26: NodeJS
+##### Bloco 26: Programação Orientada a Objetos e SOLID
 
-- [ ] 26-1: _Express: HTTP com Node.js_
-- [ ] 26-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 26-3: _[Projeto - Cookmaster]()_
+- [ ] 26-1: _Introdução à POO_
+- [ ] 26-2: _Herança e Composição_
+- [ ] 26-3: _Polimorfismo_
+- [ ] 26-4: _SOLID - Introdução e Princípios S, O e D_
+- [ ] 26-5: _SOLID - Princípios L e I_
+- [ ] 26-6: _[Projeto - Trybers and Dragons]()_
 
 ##### Bloco 27: NodeJS
 
