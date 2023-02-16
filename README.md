@@ -196,7 +196,7 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 26-2: _Herança e Composição_
 - [X] 26-3: _Polimorfismo_
 - [X] 26-4: _SOLID - Introdução e Princípios S, O e D_
-- [ ] 26-5: _SOLID - Princípios L e I_
+- [X] 26-5: _SOLID - Princípios L e I_
 - [ ] 26-6: _[Projeto - Trybers and Dragons]()_
 
 ##### Bloco 27: NodeJS
