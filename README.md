@@ -190,14 +190,14 @@ A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso 
 - [X] 25-3: _Express com TypeScript_
 - [X] 25-4: _[Projeto - Trybesmith]()_
 
-##### Bloco 26: Programação Orientada a Objetos e SOLID
+##### Bloco 26: Programação Orientada a Objetos e SOLID :white_check_mark:
 
 - [X] 26-1: _Introdução à POO_
 - [X] 26-2: _Herança e Composição_
 - [X] 26-3: _Polimorfismo_
 - [X] 26-4: _SOLID - Introdução e Princípios S, O e D_
 - [X] 26-5: _SOLID - Princípios L e I_
-- [ ] 26-6: _[Projeto - Trybers and Dragons]()_
+- [X] 26-6: _[Projeto - Trybers and Dragons]()_
 
 ##### Bloco 27: NodeJS
 
